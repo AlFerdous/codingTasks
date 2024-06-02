@@ -11,37 +11,57 @@ Understanding neural networks and their components (neurons, weights, and biases
 
 
 ### Table of Contents
-    1. Installation
-    2. Usage
-    3. Screenshots
-    4. Credits
+1. Installation
+2. Usage
+3. Screenshots
+4. Credits
 
 ### Installation
-    1.1 Clone this repository to your local machine:
-            git clone https://github.com/your-username/NN_LogicGateTruthTable.git
+1.1 Clone this repository to your local machine:
 
-    1.2 Navigate to the project directory:
-            cd NN_LogicGateTruthTable
+        git clone https://github.com/your-username/NeuralNetwork.git
+
+1.2 Navigate to the project directory:
+
+        cd NeuralNetwork
             
-    1.3 Install the required Python packages (assuming you have Python and pip installed):
-            pip install -r requirements.txt
+1.3 Install the required Python packages (assuming you have Python and pip installed):
+
+        pip install pandas
 
 ### Usage
-    2.1 Run the NN_LogicGateTruthTable script:
-            python NN_LogicGateTruthTable.py or
-            jupyter NN_LogicGateTruthTable.ipynb
+2.1 Run the NN_LogicGateTruthTable script:
 
-    2.2 Follow the prompts to choose a logic gate (AND, OR, NOR, NAND, or XOR) and input values.
+        python NN_LogicGateTruthTable.py or
+        jupyter NN_LogicGateTruthTable.ipynb
+
+2.2 Change the parameters weights & bias to choose a logic gate (AND, OR, NOR, NAND, or XOR) input/ output values.
 
 ### Screenshots
-    3.1 ![LogicGates_Neuron_OR](https://github.com/AlFerdous/codingTasks/assets/165715818/f18c45db-3cb2-4a45-b5a8-d0f138b03984)
-    3.2 ![Bias Weights](https://github.com/AlFerdous/codingTasks/assets/165715818/7a9300e1-17bf-4a54-84f3-084ebf1e706d)
-    3.3 ![AND_Gate](https://github.com/AlFerdous/codingTasks/assets/165715818/257cfa9c-bc3b-427a-a07b-9c77ff524128)
-    3.4 ![NOR_Gate](https://github.com/AlFerdous/codingTasks/assets/165715818/dbb47af2-8db0-4e80-884f-0cbf7df0b436)
-    3.5 ![NAND_Gate](https://github.com/AlFerdous/codingTasks/assets/165715818/636b4287-e737-476a-9d9c-212313860556)
-    3.6 ![XOR_Gate](https://github.com/AlFerdous/codingTasks/assets/165715818/0db70c36-bcb6-4c3a-9841-ae0be8e75b9e)
-    3.7 ![MatrixComputation_XOR_Gate](https://github.com/AlFerdous/codingTasks/assets/165715818/e8be294e-3452-415c-9a2f-662a2af0af54)
+3.1 Sigmoid Function:
+![SigmoidFunction](https://github.com/AlFerdous/codingTasks/assets/165715818/357a2ee8-3fc6-4d2f-a860-6658da4eb748)
+
+3.2 Logic Gates, Neuron, OR Gate:
+![LogicGates_Neuron_OR](https://github.com/AlFerdous/codingTasks/assets/165715818/c7de73e7-7b56-4ff9-a64e-ff45735416c2)
+
+3.3 Bias and Weights:
+![Bias Weights](https://github.com/AlFerdous/codingTasks/assets/165715818/328a453c-8d2f-41a6-9d15-1b83ed12622d)
+
+3.4 AND Gate:
+![AND_Gate](https://github.com/AlFerdous/codingTasks/assets/165715818/35d004fd-f4c7-4cc8-8d4a-9deb1140c845)
+
+3.5 NOR Gate:
+![NOR_Gate](https://github.com/AlFerdous/codingTasks/assets/165715818/c1242ad1-c0d5-4860-8bbc-0847a4eb019a)
+
+3.6 NAND Gate:
+![NAND_Gate](https://github.com/AlFerdous/codingTasks/assets/165715818/8ff84a46-ed42-46cb-b71e-3f134e56f843)
+
+3.7 XOR Gate:
+![XOR_Gate](https://github.com/AlFerdous/codingTasks/assets/165715818/ff62a994-0f1d-4ed8-83d4-0145f8905ef6)
+
+3.8 Matrix Computation of XOR Gate:
+![MatrixComputation_XOR_Gate](https://github.com/AlFerdous/codingTasks/assets/165715818/f2fb7c46-b8a8-4ee7-935f-b6ef9843990c)
 
 ### Credits
-    Author: Al Ferdous
-    GitHub: [Your GitHub Profile](https://github.com/AlFerdous)
+Author: Al Ferdous
+GitHub: (https://github.com/AlFerdous)
